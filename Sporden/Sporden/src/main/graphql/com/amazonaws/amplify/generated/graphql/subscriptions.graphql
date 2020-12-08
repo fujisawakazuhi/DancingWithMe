@@ -1,0 +1,106 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateExercise {
+  onCreateExercise {
+    id
+    name
+    voiceInfo
+    videoUri
+    textInfo
+    imgUri
+    category
+    expTime
+    script
+    watchDirection
+    disease
+    method
+    enName
+    enTextInfo
+    enVoiceInfo
+  }
+}
+subscription OnUpdateExercise {
+  onUpdateExercise {
+    id
+    name
+    voiceInfo
+    videoUri
+    textInfo
+    imgUri
+    category
+    expTime
+    script
+    watchDirection
+    disease
+    method
+    enName
+    enTextInfo
+    enVoiceInfo
+  }
+}
+subscription OnDeleteExercise {
+  onDeleteExercise {
+    id
+    name
+    voiceInfo
+    videoUri
+    textInfo
+    imgUri
+    category
+    expTime
+    script
+    watchDirection
+    disease
+    method
+    enName
+    enTextInfo
+    enVoiceInfo
+  }
+}
+subscription OnCreateUser {
+  onCreateUser {
+    id
+    email
+    name
+    birthdayY
+    birthdayM
+    birthdayD
+    age
+    height
+    weight
+    gender
+    photoUri
+    disease
+  }
+}
+subscription OnUpdateUser {
+  onUpdateUser {
+    id
+    email
+    name
+    birthdayY
+    birthdayM
+    birthdayD
+    age
+    height
+    weight
+    gender
+    photoUri
+    disease
+  }
+}
+subscription OnDeleteUser {
+  onDeleteUser {
+    id
+    email
+    name
+    birthdayY
+    birthdayM
+    birthdayD
+    age
+    height
+    weight
+    gender
+    photoUri
+    disease
+  }
+}

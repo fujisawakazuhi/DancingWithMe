@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--android:textColor="#BBFF99"
+        android:textSize="40sp"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/change_pic_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/textview_border"
+                android:text="@string/change_pic"
+                android:textAlignment="center"
+                android:textColor="#548235"
+                android:textSize="50sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/account"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/edit_show_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/show_name" />
+
+
+            <TextView
+                android:id="@+id/edit_birth_date"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/birth"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/edit_birth_date_Y"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:hint="@string/xi_yuan"
+                android:inputType="date"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/birth_date_Y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="665dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/year"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/edit_birth_date_M"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="720dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:inputType="date"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/birth_date_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="880dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/month"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/edit_birth_date_D"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="940dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:inputType="date"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/birth_date_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1100dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/day"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <!--TextView
+            android:id="@+id/edit_show_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="100dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/birth_date_Y" /> -->
+
+            <TextView
+                android:id="@+id/sex"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/gender"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <RadioGroup
+                android:id="@+id/sex_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="650dp"
+                    android:layout_weight="1"
+                    android:text="@string/male"
+                    android:textSize="50sp" />
+
+                <RadioButton
+                    android:id="@+id/woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_weight="1"
+                    android:text="@string/female"
+                    android:textSize="50sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edit2_show_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:gravity="center"
+                android:hint="@string/cm"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/height"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/edit2_show_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:gravity="center"
+                android:hint="@string/kg"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/weight"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <!--TextView
+            android:id="@+id/edit_nextpage "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1000dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="下一頁"
+            android:textColor="@color/black"
+            android:textSize="50sp" /-->
+
+            <TextView
+                android:id="@+id/disease"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_for_edit_show"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/disease"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+
+            <CheckBox
+                android:id="@+id/Osteoporosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginStart="550dp"
+                android:text="@string/nee_hurt"
+                android:textSize="50sp" />
+
+            <CheckBox
+                android:id="@+id/heart_disease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:layout_marginTop="550dp"
+                android:layout_marginStart="950dp"
+                android:text="@string/wrist_hurt" />
+
+            <CheckBox
+                android:id="@+id/hypertension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:layout_marginTop="650dp"
+                android:layout_marginStart="550dp"
+                android:text="@string/Osteoporosis" />
+
+            <CheckBox
+                android:id="@+id/diabetes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:layout_marginTop="650dp"
+                android:layout_marginStart="950dp"
+                android:text="@string/diabetes" />
+
+            <TextView
+                android:id="@+id/edit_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1050dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/complete"
+                android:textColor="#548235"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/edit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="800dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:paddingStart="30dp"
+                android:paddingEnd="50dp"
+                android:text="@string/cancel"
+                android:textColor="#548235"
+                android:textSize="50sp" />
+
+            <!--Button
+                android:id="@+id/change_pic_btn"
+                android:layout_width="217dp"
+                android:layout_height="75dp"
+                android:layout_alignTop="@+id/photo2"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/change_pic"
+                android:textSize="30dp" /-->
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="282dp"
+                android:layout_height="176dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

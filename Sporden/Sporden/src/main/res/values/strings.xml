@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Sporden</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sport_teach_intro_pic_ac">縮圖</string>
+    <string name="sport_teach_intro_pic_ac_b">黑色遮罩</string>
+    <string name="sport_match_pic_ac_b">黑色遮罩</string>
+    <string name="sport_package">運動套餐</string>
+    <string name="sport_category_search">運動查詢與分類</string>
+    <string name="server_client_id">463158886631-f3ntckiovvh5o6etqpqvnjm5ev78det0.apps.googleusercontent.com</string>
+
+    //CAL_STEP
+    <string name="intro_text">Behold, a data dump from the Fitness API! Check the menu for more actions!</string>
+    <string name="action_update_session">Update step count data</string>
+    <string name="action_delete_session">Delete step count data</string>
+    <string name="action_settings">Settings</string>
+
+    //activity_calorie_pic
+    <string name="calories_buring">卡路里燃燒表</string>
+
+    //activity_exercise_history
+    <string name="exercise_history">運動紀錄</string>
+
+    //activity_heart_rate_history
+    <string name="heart_history">心跳歷史</string>
+    <string name="exercise_types">運動類型</string>
+
+    //activity_main
+    <string name="exercises_teaching">運動教學</string>
+    <string name="dashboard">健康儀錶板</string>
+    <string name="my_info">我的資訊</string>
+    <string name="garden">花園圖鑑</string>
+    <string name="logout">登出</string>
+
+    //activity_makepic
+    <string name="HR_graph">心率圖表</string>
+
+    //activity_membership
+    <string name="user_area">使用者專區</string>
+
+    //activity_myboard
+    <string name="heart">心跳</string>
+    <string name="calories">卡路里</string>
+    <string name="history">歷史資料</string>
+
+    //activity_workout_category
+    <string name="warm_up">暖身</string>
+    <string name="aerobic">有氧</string>
+    <string name="muscle">肌力</string>
+    <string name="cool_down">收操</string>
+
+    //activity_workout_category_detial
+    <string name="loading">載入中...</string>
+    <string name="menu">選單</string>
+
+    //ac_workout_game_detail
+    <string name="fail_to_read_title">標題讀取失敗</string>
+    <string name="go_back">返回</string>
+    <string name="start_game">開始遊戲！</string>
+
+    //ac_workout_gaming
+    <string name="movement_direction">動作方向</string>
+    <string name="directly_end">直接結束</string>
+    <string name="display_position">此處顯示座標</string>
+
+    //ac_workout_gaming_result
+    <string name="congratulation">恭喜你完成運動！</string>
+    <string name="calculating">計算中</string>
+
+    //ac_workout_search
+    <string name="enter_exercise_name">輸入運動名稱</string>
+
+    //card_workout_category_detial
+    <string name="exercise_name">運動名稱</string>
+
+    //fra_edit_membership
+    <string name="account">帳號</string>
+    <string name="birth">生日(西元年)</string>
+    <string name="xi_yuan">西元</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="gender">性別</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="cm">公分</string>
+    <string name="height">身高</string>
+    <string name="weight">體重</string>
+    <string name="kg">公斤</string>
+    <string name="disease">疾病史</string>
+    <string name="nee_hurt">膝蓋疼痛</string>
+    <string name="wrist_hurt">手腕疼痛</string>
+    <string name="Osteoporosis">骨質疏鬆</string>
+    <string name="diabetes">糖尿病</string>
+    <string name="complete">完成</string>
+    <string name="cancel">取消</string>
+    <string name="change_pic">更換照片</string>
+
+    //fra_heartrate_initial
+    <string name="choose_ex_type">請先選擇運動類型</string>
+
+    //fra_heartrate_interface
+    <string name="HR_info">心跳資訊</string>
+    <string name="after_display">待點選資料後呈現</string>
+    <string name="min">最小值</string>
+
+    //fra_membership
+    <string name="hello">哈囉</string>
+    <string name="mem_birth">生日(年/月/日)</string>
+    <string name="age">年齡</string>
+    <string name="display_after_save">儲存生日後顯示</string>
+    <string name="next_pg">下一頁</string>
+    <string name="edit">編輯</string>
+    <string name="home">首頁</string>
+
+    //fra_mem_2
+    <string name="pre_pg">上一頁</string>
+    <string name="pre">上一頁</string>
+    <string name="next">下一頁</string>
+
+
+    //fra_sport_search_and_category
+    <string name="search">搜尋</string>
+
+    //ac_login
+    <string name="login">以google帳號登入</string>
+
+    //workout gaming script directionsetter
+    <string name="wrong_dir">錯誤方向</string>
+    <string name="squat_dw">蹲下!</string>
+    <string name="stand_up">站起來!</string>
+    <string name="go_forward">前進!</string>
+    <string name="go_backwards">後退!</string>
+    <string name="to_right">往右!</string>
+    <string name="to_left">往左!</string>
+
+    //workout gaming script actionAgainNameSpeaker
+    <string name="plez_mv">請動</string>
+    <string name="squat_dw_plz">蹲下，拜託！</string>
+    <string name="stand_up_plz">站起來，拜託！</string>
+    <string name="forward_plz">前進，好不好呀？</string>
+    <string name="backwards_plz">後退麻，啾咪</string>
+
+    //workout gaming script actionErrorSpeaker
+    <string name="too_low">你站太低了，高一點</string>
+    <string name="too_high">你站太高了，低一點</string>
+    <string name="too_close">太前面了，往後一點</string>
+    <string name="too_far">太後面了，往前一點</string>
+    <string name="action_start_err">動作開始錯誤</string>
+    
+    //workoutGamingDirection
+    <string name="exit_game">您已跳出遊戲，按叉叉，再請重新開始</string>
+    <string name="flat_hand">記得手要平的</string>
+    <string name="finish_game">恭喜你，完成運動！</string>
+    <string name="sorry_timeup">很抱歉，時間到了</string>
+    <string name="not_find">我找不到你，不要離開我</string>
+    <string name="welcome_to">歡迎來到，</string>
+    <string name="plez_finish">請完成</string>
+    <string name="times">下</string>
+    <string name="ready">準備</string>
+
+    //workoutSearchAc
+    <string name="related_ex">相關運動</string>
+    <string name="plx_ent_wan_ex">請輸入您想要搜尋的運動</string>
+    <string name="already_not_forward">已無法往前囉!</string>
+    <string name="already_not_backward">已無法往後囉!</string>
+    <string name="which_u_want">想要做哪一個運動呢?</string>
+
+    //workoutGamingOnlyWatch
+    <string name="up_stretch">手向上伸!</string>
+    <string name="down_stretch">手向下伸!</string>
+
+    //workoutGamingShake
+    <string name="remeber_shake">請記得甩手</string>
+    <string name="cannot_see">Zenbo看不到你！</string>
+
+    //exercise name
+    <string name="LR_extend">左右伸展</string>
+    <string name="FW_shakehands">前後甩手</string>
+    <string name="UD_stretch">上下拉筋</string>
+    <string name="SM_squat">簡易深蹲</string>
+    <string name="FW_footpoint">前後腳點</string>
+    <string name="DL">硬舉</string>
+    <string name="SM_balance">單腳平衡</string>
+    <string name="UD_extension">上下伸展</string>
+    <string name="ST_extend">坐式伸展</string>
+    <string name="MO_step">原地踏步</string>
+    <string name="AM_extend">手臂伸展</string>
+    <string name="BX_exercise">踏台運動</string>
+    <string name="KE_balance">抱膝平衡</string>
+    <string name="HN_circle">雙手畫圓操</string>
+    <string name="STF_extend">坐式向前伸展</string>
+    <string name="PR_knee">壓膝</string>
+
+    //HR_FRA
+    <string name="HR">心跳</string>
+    <string name="AV">平均</string>
+    <string name="MAX">最大值</string>
+    <string name="MIN">最小值</string>
+    <string name="AVM">平均值</string>
+    <string name="sp_T">運動時間</string>
+    <string name="DATE">日期</string>
+    <string name="BUR_CAL">消耗卡路里</string>
+    <string name="minute">分</string>
+    <string name="sec">秒</string>
+    <string name="cal">卡</string>
+
+    //WorkoutGamingResult
+    <string name="average_HR">平均心率</string>
+    <string name="burned_cal">消耗熱量</string>
+    <string name="score_0">超過運動限制時間囉，需要再接再厲，才能達到運動效果唷，加油!</string>
+    <string name="score_50">要記得做手的姿勢哦，這樣才能夠達到最棒的運動效果，更標準的姿勢也能預防受傷唷，繼續加油!</string>
+    <string name="score_75">手的部分要做的更標準唷，繼續加油，做的不錯了!</string>
+    <string name="score_90">你做的很棒!雖然手部要在注意一下，但運動得很棒唷，休息一下吧。</string>
+    <string name="score_100">做的超棒的!你是運動天才唷!超厲害的啦!</string>
+</resources>

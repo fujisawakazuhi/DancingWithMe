@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "517399200110",
+    "firebase_url": "https://sporden-f9696.firebaseio.com",
+    "project_id": "sporden-f9696",
+    "storage_bucket": "sporden-f9696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517399200110:android:e990688ab5299e58",
+        "android_client_info": {
+          "package_name": "com.robot.asus.Sporden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517399200110-1q2mbfihpilqda8l5h3g9cdir8ff4hqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDalHg1zPkH3OPlRLTEdSpxeqGbbwPpnRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517399200110-1q2mbfihpilqda8l5h3g9cdir8ff4hqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

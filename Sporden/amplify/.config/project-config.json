@@ -1,0 +1,13 @@
+{
+    "projectName": "sporden",
+    "version": "2.0",
+    "frontend": "android",
+    "android": {
+        "config": {
+            "ResDir": "Sporden\\src\\main\\res"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

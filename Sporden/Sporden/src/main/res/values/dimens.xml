@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="onlywatch">60sp</dimen>
+    <dimen name="workoutgaming">100sp</dimen>
+
+    //CAL_STEP //這邊有問題，沒有用到你要用的那邊，會影響到所有介面
+    <dimen name="margin_medium">0dp</dimen>
+</resources>

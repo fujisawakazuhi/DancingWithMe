@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/windex",
+            "lambdaFunction": "WatchIndexLambda",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "rw"
+            }
+        }
+    ],
+    "resourceName": "WatchIndex",
+    "apiName": "WatchIndex",
+    "functionArns": [
+        {
+            "lambdaFunction": "WatchIndexLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "sporden-20190219213452-authRole",
+        "unAuthRoleName": "sporden-20190219213452-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "WatchIndexLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

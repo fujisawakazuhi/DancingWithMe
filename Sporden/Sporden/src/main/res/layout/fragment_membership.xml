@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--android:textColor="#BBFF99"
+        android:textSize="40sp"-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/QAQ_Zenbo"
+            android:layout_width="200dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="1000dp"
+            android:src="@drawable/qaqzenbo" />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:gravity="center"
+            android:text="@string/hello"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/show_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_name" />
+
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/account"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/birth_date"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/mem_birth"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/show_birth_date_Y"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/birth_date_Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="665dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/year"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/show_birth_date_M"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="720dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/birth_date_M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="880dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/month"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/show_birth_date_D"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="940dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/birth_date_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1100dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/day"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/age"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/show_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/shape_for_edit_show"
+            android:gravity="center"
+            android:text="@string/display_after_save"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_birth_date_Y" />
+
+        <Button
+            android:id="@+id/nextpage"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1000dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/next_pg"
+            android:textColor="#548235"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/edit"
+            android:textColor="#548235"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/backmain1"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="800dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="313dp"
+            android:layout_marginBottom="101dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/home"
+            android:textColor="#548235"
+            android:textSize="45sp" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="378dp"
+            android:layout_height="202dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            />
+
+        <ImageView
+            android:id="@+id/cake_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/cake" />
+
+        <ImageView
+            android:id="@+id/calendar_pic"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/calendar" />
+
+        <ImageView
+            android:id="@+id/account_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/account"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

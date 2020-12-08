@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADC49E">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/LLforRecyler"
+        >
+
+        <!--android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            /-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/workout_list_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/LLforWheel"
+        >
+
+        <ru.github.igla.ferriswheel.FerrisWheelView
+            android:id="@+id/ferrisWheelView"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:fwv_cabinsNumber="8"
+            app:fwv_rotateSpeed="100"
+            app:fwv_wheelStrokeColor="#7fbfe9"
+            app:fwv_baseStrokeColor="#E91E63"
+            app:fwv_cabinFillColor="#0000CC"
+            app:fwv_cabinLineStrokeColor="#FFFFFF"/>
+
+        <ProgressBar
+            android:layout_weight="1"
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:indeterminate="true" />
+
+        <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:text="@string/loading"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            android:text="@string/pre"
+            android:background="@drawable/textview_border"
+            android:textSize="60sp"/>
+            <!--android:background="@drawable/button" /-->
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            android:text="@string/menu"
+            android:background="@drawable/textview_border"
+            android:textSize="70sp"/>
+            <!--android:background="@drawable/buttonback" /-->
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:background="@drawable/textview_border"
+            android:textSize="60sp"/>
+            <!--android:background="@drawable/button2" /-->
+
+
+    </LinearLayout>
+</LinearLayout>

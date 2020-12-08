@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADC49E"
+    tools:context="com.robot.asus.Sporden.Myboard">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ADC49E"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/MyBorad"
+                android:text="@string/dashboard"
+                android:textSize="80sp"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--ImageButton
+                android:id="@+id/backtomain"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/buttonindex" /-->
+
+            <TextView
+                android:id="@+id/backtomain"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/textview_border"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/home"
+                android:textAlignment="center"
+                android:textColor="#548235"
+                android:textSize="50sp"
+                />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="2">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+
+            <!-- Column 2 -->
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+
+            <!-- Column 2 -->
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView_heart_rate_history"
+                android:layout_width="0dp"
+                android:layout_height="400dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/HR_Picture"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hr1" />
+
+                <TextView
+                    android:id="@+id/HeartRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/heart"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="100sp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Column 2 -->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/history_calorie"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/Calorie_Picture"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fire1" />
+
+
+                <TextView
+                    android:id="@+id/Calorie"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/calories"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="100sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/history"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/ExerciseHistory_picture"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/exercise_time1"/>
+
+                <TextView
+                    android:id="@+id/history_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/history"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="80sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/circular_progressBar"
+            style="?android:progressBarStyle"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/circle_bar"
+            android:indeterminateDuration="@android:integer/config_longAnimTime"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

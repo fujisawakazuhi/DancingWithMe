@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ticwear:mobvoi-api:1.1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvoi-api-1.1.1.aar/54223b879b58a8d4e2ff811106365db9/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvoi-api-1.1.1.aar/54223b879b58a8d4e2ff811106365db9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mobvoi-api-1.1.1.aar/54223b879b58a8d4e2ff811106365db9/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ticwear/mobvoi-api/1.1.1/996104cdddcf09f63586d7796fd6e07dbd9adbe8/mobvoi-api-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

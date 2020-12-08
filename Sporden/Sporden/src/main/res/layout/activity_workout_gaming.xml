@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/FrameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <com.willy.ratingbar.RotationRatingBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rotationratingbar_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                </com.willy.ratingbar.RotationRatingBar>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#A88C9C04"
+            >
+
+
+            <TextView
+                android:id="@+id/textDirection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="175dp"
+                android:text="@string/movement_direction"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/workoutgaming" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.lijiankun24.shadowlayout.ShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shadowColor="#66000000"
+        app:shadowShape="oval"
+        app:shadowDx="0dp"
+        app:shadowDy="3dp"
+        app:shadowRadius="10dp"
+        app:shadowSide="all"
+        android:layout_gravity="end"
+        >
+
+        <ImageView
+            android:id="@+id/cancleGame"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/canclegame" />
+    </com.lijiankun24.shadowlayout.ShadowLayout>
+
+    <ImageView
+        android:id="@+id/isGetPersonIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:src="@drawable/icondetect_non"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#00000000"
+        android:textColor="#00000000"
+        android:text="@string/directly_end" />
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="640sp"
+        android:layout_height="425sp"
+        android:layout_gravity="bottom|end"/>
+
+    <TextView
+        android:id="@+id/textface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_position"
+        android:layout_marginTop="250dp"
+        android:textColor="#00000000"
+
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="500dp"
+       >
+
+        <TextView
+            android:id="@+id/textTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="0"
+            android:textColor="#00000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textisShake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="0"
+            android:textColor="#00000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textOrientation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="0"
+            android:textColor="#00000000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/index",
+            "lambdaFunction": "spordenIndexLambda",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "rw"
+            }
+        }
+    ],
+    "resourceName": "spodenIndex",
+    "apiName": "spodenIndex",
+    "functionArns": [
+        {
+            "lambdaFunction": "spordenIndexLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "sporden-20190219213452-authRole",
+        "unAuthRoleName": "sporden-20190219213452-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "spordenIndexLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

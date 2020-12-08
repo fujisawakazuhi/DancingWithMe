@@ -1,0 +1,41 @@
+{
+    "sporden": {
+        "awscloudformation": {
+            "AuthRoleName": "sporden-20190219213452-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612401870979:role/sporden-20190219213452-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612401870979:role/sporden-20190219213452-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "sporden-20190219213452-deployment",
+            "UnauthRoleName": "sporden-20190219213452-unauthRole",
+            "StackName": "sporden-20190219213452",
+            "StackId": "arn:aws:cloudformation:us-east-1:612401870979:stack/sporden-20190219213452/23b3d390-344b-11e9-8a35-0aab6c3cae14"
+        },
+        "categories": {
+            "auth": {
+                "cognito9f34658a": {
+                    "googleClientId": "463158886631-op8tuv929cd5jcfivm9kr7fc24qgpfh5.apps.googleusercontent.com",
+                    "googleAndroid": "463158886631-8s2can5dpatolc8s1ihp5j69nuc169b9.apps.googleusercontent.com"
+                }
+            }
+        }
+    },
+    "spordenone": {
+        "awscloudformation": {
+            "AuthRoleName": "sporden-20190306202044-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612401870979:role/sporden-20190306202044-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612401870979:role/sporden-20190306202044-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "sporden-20190306202044-deployment",
+            "UnauthRoleName": "sporden-20190306202044-unauthRole",
+            "StackName": "sporden-20190306202044",
+            "StackId": "arn:aws:cloudformation:us-east-1:612401870979:stack/sporden-20190306202044/44b84b50-400a-11e9-adee-12069a319f62"
+        }
+    },
+    "undefined": {
+        "categories": {
+            "auth": {
+                "cognito9f34658a": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/shimmer_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:shimmer_animation_duration="2000"
+            app:shimmer_auto_start="true"
+            android:layout_weight="5"
+            app:shimmer_color="#A4B2BD">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/congratulation"
+            android:textSize="88sp" />
+
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+
+        <com.lijiankun24.shadowlayout.ShadowLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shadowColor="#66000000"
+            app:shadowShape="oval"
+            app:shadowDx="0dp"
+            app:shadowDy="3dp"
+            app:shadowRadius="10dp"
+            app:shadowSide="all"
+            android:layout_gravity="end"
+            >
+            <ImageView
+                android:id="@+id/gohome"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/iconhome" />
+        </com.lijiankun24.shadowlayout.ShadowLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linerlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/heratRateLiner"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageHeart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_margin="20dp"/>
+
+
+    <!--摩天輪Code ru.github.igla.ferriswheel.FerrisWheelView
+        android:layout_weight="5"
+        android:id="@+id/ferrisWheelView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:fwv_cabinsNumber="8"
+        app:fwv_rotateSpeed="100"
+        app:fwv_wheelStrokeColor="#7fbfe9"
+        app:fwv_baseStrokeColor="#E91E63"/>
+        app:fwv_cabinFillColor="#FFFFFF"
+        app:fwv_cabinLineStrokeColor="#FFFFFF"-->
+
+    <!--ProgressBar
+        android:layout_weight="1"
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:indeterminate="true" />-->
+
+        <TextView
+            android:id="@+id/average_hr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/calculating"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <!--TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"android:text="平均心率：110 BPM"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"android:text="消耗熱量：250 cal"
+        android:text="Loading..."
+        android:textColor="#000000"
+        android:textSize="16sp" />-->
+
+
+        <ImageView
+            android:id="@+id/imageCalorie"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/final_calorie"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/calculating"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

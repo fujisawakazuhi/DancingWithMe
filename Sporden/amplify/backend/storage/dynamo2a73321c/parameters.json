@@ -1,0 +1,5 @@
+{
+    "tableName": "Index",
+    "partitionKeyName": "user_email",
+    "partitionKeyType": "S"
+}

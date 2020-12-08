@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADC49E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_search_sport"
+            android:layout_width="970dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:completionHint="Select a sport"
+            android:completionThreshold="1"
+            android:hint="@string/enter_exercise_name"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btn_sport_search_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:text="@string/search"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/SLLforRecycler">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/workout_search_list_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/SLLforWheel">
+
+        <ProgressBar
+            android:layout_weight="1"
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:indeterminate="true" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="5dp"
+            android:text="@string/loading"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backward"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="200dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:text="@string/pre"
+            android:textSize="60sp"/>
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="@string/menu"
+            android:background="@drawable/textview_border"
+            android:textSize="70sp" />
+
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:background="@drawable/textview_border"
+            android:textSize="60sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

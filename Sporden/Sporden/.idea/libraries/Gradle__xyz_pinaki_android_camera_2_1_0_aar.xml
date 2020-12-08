@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: xyz.pinaki.android:camera:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.1.0.aar/465ce8fb74462e6e47f850e5adca8c78/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.1.0.aar/465ce8fb74462e6e47f850e5adca8c78/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xyz.pinaki.android/camera/2.1.0/a2abaef644deda12f47d6e974836efc7c1402e1b/camera-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+type Exercise @model {
+  id: ID!
+  name: String!
+  voiceInfo: String
+  videoUri: String
+  textInfo: String
+  imgUri: String
+  category: String
+  expTime: Int
+  script: String
+  watchDirection: Int
+  disease: String
+  method: String
+  enName: String
+  enTextInfo: String
+  enVoiceInfo: String
+}
+
+type User @model {
+  id: ID!
+  email: String!
+  name: String!
+  birthdayY: String
+  birthdayM: String
+  birthdayD: String
+  age: Int
+  height: Float
+  weight: Float
+  gender: String
+  photoUri: String
+  disease: String
+}

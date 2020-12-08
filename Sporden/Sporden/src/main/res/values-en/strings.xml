@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sporden</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sport_teach_intro_pic_ac">縮圖</string>
+    <string name="sport_teach_intro_pic_ac_b">黑色遮罩</string>
+    <string name="sport_match_pic_ac_b">黑色遮罩</string>
+    <string name="sport_package">運動套餐</string>
+    <string name="sport_category_search">運動查詢與分類</string>
+    <string name="server_client_id">463158886631-f3ntckiovvh5o6etqpqvnjm5ev78det0.apps.googleusercontent.com</string>
+
+    //CAL_STEP
+    <string name="intro_text">Behold, a data dump from the Fitness API! Check the menu for more actions!</string>
+    <string name="action_update_session">Update step count data</string>
+    <string name="action_delete_session">Delete step count data</string>
+    <string name="action_settings">Settings</string>
+
+    //activity_calorie_pic
+    <string name="calories_buring">Calories Burning Chart</string>
+
+    //activity_exercise_history
+    <string name="exercise_history">Exercise History</string>
+
+    //activity_heart_rate_history
+    <string name="heart_history">Heart Rate Histroy</string>
+    <string name="exercise_types">Exercise Type</string>
+
+    //activity_main
+    <string name="exercises_teaching">Exercise Lesson</string>
+    <string name="dashboard">Health Dashboard</string>
+    <string name="my_info">My Information</string>
+    <string name="garden">Garden</string>
+    <string name="logout">Sign Out</string>
+
+    //activity_makepic
+    <string name="HR_graph">Heart Rate Chart</string>
+
+    //activity_membership
+    <string name="user_area">User Area</string>
+
+    //activity_myboard
+    <string name="heart">Heart Rate</string>
+    <string name="calories">Calories</string>
+    <string name="history">History Record</string>
+
+    //activity_workout_category
+    <string name="warm_up">Warm Up</string>
+    <string name="aerobic">Aerobic</string>
+    <string name="muscle">Muscle Strength</string>
+    <string name="cool_down">Cool Down</string>
+
+    //activity_workout_category_detial
+    <string name="loading">Loading...</string>
+    <string name="menu">menu</string>
+
+    //ac_workout_game_detail
+    <string name="fail_to_read_title">Fail to Read the Title</string>
+    <string name="go_back">Back</string>
+    <string name="start_game">Start Game！</string>
+
+    //ac_workout_gaming
+    <string name="movement_direction">Movement</string>
+    <string name="directly_end">Directly Finish</string>
+    <string name="display_position">This position will display your coordinate</string>
+
+    //ac_workout_gaming_result
+    <string name="congratulation">Congratulations！ You completed this exercise！</string>
+    <string name="calculating">Calculating...</string>
+
+    //ac_workout_search
+    <string name="enter_exercise_name">Enter Exercise name</string>
+
+    //card_workout_category_detial
+    <string name="exercise_name">Exercise Name</string>
+
+    //fra_edit_membership
+    <string name="account">Account</string>
+    <string name="birth">Birthday(A.D.)</string>
+    <string name="xi_yuan">A.D.</string>
+    <string name="year">Y</string>
+    <string name="month">M</string>
+    <string name="day">D</string>
+    <string name="gender">Gender</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="cm">cm</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="kg">kg</string>
+    <string name="disease">History of Disease</string>
+    <string name="nee_hurt">Knee Pain</string>
+    <string name="wrist_hurt">Wrist Pain</string>
+    <string name="Osteoporosis">Osteoporosis</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="complete">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_pic">Change Picture</string>
+
+    //fra_heartrate_initial
+    <string name="choose_ex_type">Please Choose Exercise Type</string>
+
+    //fra_heartrate_interface
+    <string name="HR_info">Heart Rate Information</string>
+    <string name="after_display">Content will display after you choose the data</string>
+    <string name="min">Minimum</string>
+
+    //fra_membership
+    <string name="hello">Hello</string>
+    <string name="mem_birth">Birthday</string>
+    <string name="age">Age</string>
+    <string name="display_after_save">Display After Save the Birthday</string>
+    <string name="next_pg">Next Page</string>
+    <string name="edit">Edit</string>
+    <string name="home">Home</string>
+
+    //fra_mem_2
+    <string name="pre_pg">Previous Page</string>
+    <string name="pre">Previous</string>
+    <string name="next">Next</string>
+
+    //fra_sport_search_and_category
+    <string name="search">Search</string>
+
+    //ac_login
+    <string name="login">Log in with Google</string>
+
+    //workout gaming script directionsetter
+    <string name="wrong_dir">Wrong Direction</string>
+    <string name="squat_dw">Squat Down!</string>
+    <string name="stand_up">Stand up!</string>
+    <string name="go_forward">Go Forward!</string>
+    <string name="go_backwards">Go Backwards!</string>
+    <string name="to_right">To the Right!</string>
+    <string name="to_left">To the Left!</string>
+
+    //workout gaming script actionAgainNameSpeaker
+    <string name="plez_mv">Please Move</string>
+    <string name="squat_dw_plz">Squat Down, Please！</string>
+    <string name="stand_up_plz">Stand Up, Please！</string>
+    <string name="forward_plz">Go forward, come on！</string>
+    <string name="backwards_plz">Go Backwards, yo！</string>
+
+    //workout gaming script actionErrorSpeaker
+    <string name="too_low">You stand too low, higher</string>
+    <string name="too_high">You stand too high, lower</string>
+    <string name="too_close">You stand so close to me, could you go backwards?</string>
+    <string name="too_far">You stand too far away from me, could you go forward?</string>
+    <string name="action_start_err">Error action when you start</string>
+
+    //workoutGamingDirection
+    <string name="exit_game">You have jumped out of the game, press the cross, then start again</string>
+    <string name="flat_hand">Remember to raise your hands flat</string>
+    <string name="finish_game">Congratulations, you have completed the exercise!</string>
+    <string name="sorry_timeup">It\'s a pity that time is up.</string>
+    <string name="not_find">I cannot find you, don\'t leave me alone!</string>
+    <string name="welcome_to">Welcome to,</string>
+    <string name="plez_finish">Please complete </string>
+    <string name="times"> times</string>
+    <string name="ready">Ready</string>
+
+    //workoutSearchAc
+    <string name="related_ex">related exercises</string>
+    <string name="plx_ent_wan_ex">Please enter which exercise do you want to search</string>
+    <string name="already_not_forward">Cannot go forward!</string>
+    <string name="already_not_backward">Cannot go backwards!</string>
+    <string name="which_u_want">Which exercise do you want to do?</string>
+
+    //workoutGamingOnlyWatch
+    <string name="up_stretch">Hands up!</string>
+    <string name="down_stretch">Hands down!</string>
+
+    //workoutGamingShake
+    <string name="remeber_shake">Remember to shake your hand!</string>
+    <string name="cannot_see">Zenbo cannot see you！</string>
+
+    //exercise name
+    <string name="LR_extend">Stretching left and right</string>
+    <string name="FW_shakehands">Shake hand and move front and back</string>
+    <string name="UD_stretch">Stretching up and down</string>
+    <string name="SM_squat">Simple Squat</string>
+    <string name="FW_footpoint">Foot touch ground and move front and back</string>
+    <string name="DL">Deadlift</string>
+    <string name="SM_balance">One foot balance</string>
+    <string name="UD_extension">Extension up and down</string>
+    <string name="ST_extend">Sitting Stretching</string>
+    <string name="MO_step">March on the spot</string>
+    <string name="AM_extend">Arm stretching</string>
+    <string name="BX_exercise">Step onto the steps</string>
+    <string name="KE_balance">Knee balance</string>
+    <string name="HN_circle">Drawing circles with both hands</string>
+    <string name="STF_extend">Sitting front stretching</string>
+    <string name="PR_knee">Press knee</string>
+
+    //HR_FRA
+    <string name="HR">Heart Rate</string>
+    <string name="AV">Average</string>
+    <string name="MAX">HR Maximum</string>
+    <string name="MIN">HR Minimum</string>
+    <string name="AVM">HR Average</string>
+    <string name="sp_T">Exercise Time</string>
+    <string name="DATE">Date</string>
+    <string name="BUR_CAL">Calories burned</string>
+    <string name="minute">min</string>
+    <string name="sec">sec</string>
+    <string name="cal">cal</string>
+
+    //WorkoutGamingResult
+    <string name="average_HR">Average HR</string>
+    <string name="burned_cal">Calories burned</string>
+    <string name="score_0">Exceed the limit of exercise time, you need to work harder to achieve the exercise effect. Come on!</string>
+    <string name="score_50">Remember to do the posture of the hand, in order to achieve the best exercise effect, more standard posture can also prevent injuries, continue to cheer!</string>
+    <string name="score_75">Part posture of the hand has to be pay more attention to do the correct movement, you did a good job and keep it up!</string>
+    <string name="score_90">You did a great job! Although you should pay attention to correct your wrong posture of hand, but there is basically no error, take a break.</string>
+    <string name="score_100">It\'s great! You are a exercise genius! It\'s amazing!</string>
+</resources>

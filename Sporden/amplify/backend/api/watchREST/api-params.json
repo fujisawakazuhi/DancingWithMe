@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/watch",
+            "lambdaFunction": "watchd3929c4e",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "rw"
+            }
+        }
+    ],
+    "resourceName": "watchREST",
+    "apiName": "watchREST",
+    "functionArns": [
+        {
+            "lambdaFunction": "watchd3929c4e"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "sporden-20190219213452-authRole",
+        "unAuthRoleName": "sporden-20190219213452-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "watchd3929c4e",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

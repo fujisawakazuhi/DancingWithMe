@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.race604.waveloading:library:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/86182d559a448e4c89b2f88c94b48c64/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/86182d559a448e4c89b2f88c94b48c64/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.race604.waveloading/library/1.1.1/534afd229e81497c251982b42ad16e02decdd436/library-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,5 @@
+{
+    "tableName": "Health-RESTapi",
+    "partitionKeyName": "userId",
+    "partitionKeyType": "S"
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.robot.asus.Sporden.SportTeachIntro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sport_teach_intro_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:alpha="0.7"
+                    android:contentDescription="@string/sport_teach_intro_pic_ac"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pit" />
+
+                <ImageView
+                    android:id="@+id/sport_teach_intro_pic_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:alpha="0.5"
+                    android:contentDescription="@string/sport_teach_intro_pic_ac_b"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/sport_teach_intro_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="甩腳運動"
+                    android:textColor="@color/sport_category_text"
+                    android:textSize="100dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/sport_teach_intro_intensity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="強度 - 超強"
+                    android:textColor="@color/sport_category_text"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/sport_teach_intro_time"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sport_teach_intro_name" />
+
+                <TextView
+                    android:id="@+id/sport_teach_intro_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="預計時間 - 5 分鐘"
+                    android:textColor="@color/sport_category_text"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sport_teach_intro_intensity" />
+
+                <ImageButton
+                    android:id="@+id/sport_teach_intro_btn"
+                    android:layout_width="140dp"
+                    android:layout_height="82dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    app:layout_constraintTop_toBottomOf="@+id/sport_teach_intro_time"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/sport_teach_intro_LL1"
+                    android:src="@drawable/sport_teach_intro_btn"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="584dp" />
+
+                <LinearLayout
+                    android:id="@+id/sport_teach_intro_LL1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/sport_teach_intro_pic"
+                    android:background="@drawable/sport_teach_intro_linear_bg">
+
+                    <TextView
+                        android:id="@+id/sport_teach_intro_category_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="運動類別"
+                        android:textSize="50dp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:id="@+id/sport_teach_intro_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="腳部運動"
+                        android:textSize="80dp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/sport_teach_intro_LL2"
+                    app:layout_constraintTop_toBottomOf="@id/sport_teach_intro_LL1"
+                    android:background="@drawable/sport_teach_intro_linear_bg">
+
+                    <TextView
+                        android:id="@+id/sport_teach_intro_equipment_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="需要裝備"
+                        android:textSize="50dp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:id="@+id/sport_teach_intro_equipment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="不需要裝備"
+                        android:textSize="80dp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/sport_teach_intro_LL3"
+                    app:layout_constraintTop_toBottomOf="@id/sport_teach_intro_LL2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/sport_teach_intro_linear_bg">
+
+                    <TextView
+                        android:id="@+id/sport_teach_intro_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="運動介紹"
+                        android:textSize="50dp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:id="@+id/sport_teach_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文"
+                        android:textSize="80dp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

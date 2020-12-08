@@ -1,0 +1,13 @@
+{
+    "bucketName": "spordena15102b183ff4128b4ef6d0604708374",
+    "authPolicyName": "s3_amplify_ff7b9aa0",
+    "unauthPolicyName": "s3_amplify_ff7b9aa0",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": "rw"
+}

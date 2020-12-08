@@ -1,0 +1,41 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://d2uobknvv5dxfparhmici5o27y.appsync-api.us-east-1.amazonaws.com/graphql",
+            "Region": "us-east-1",
+            "AuthMode": "API_KEY"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:04ceb567-f209-4104-80fd-b17f27110ab0",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_3qzVVM5Ev",
+            "AppClientId": "48f0tr04027kuf797qler4405f",
+            "AppClientSecret": "n0jidp5thvagg45gi6t1j2srd0nvim2gjaefv6ee0egbt219olr",
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "spordena15102b183ff4128b4ef6d0604708374-sporden",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    }
+}

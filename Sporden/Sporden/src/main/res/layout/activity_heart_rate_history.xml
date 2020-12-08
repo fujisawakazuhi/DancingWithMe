@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADC49E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/backtomybord"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginLeft="1050dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/go_back"
+            android:textAlignment="center"
+            android:textColor="#548235"
+            android:textSize="50sp" />
+
+        <!--ImageButton
+            android:id="@+id/backtomybord"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1050dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/back" /-->
+
+        <ImageView
+            android:id="@+id/hrpic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/hr" />
+
+        <TextView
+            android:id="@+id/heart_rate_history"
+            android:layout_width="751dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="356dp"
+            android:text="@string/heart_history"
+            android:textColor="@color/black"
+            android:textSize="90sp" />
+
+        <TextView
+            android:id="@+id/type_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heart_rate_history"
+            android:layout_marginStart="400dp"
+            android:text="@string/exercise_types"
+            android:textSize="60sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTest"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/heart_rate_history"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@id/type_exercise" />
+
+        <fragment
+            android:name="com.robot.asus.Sporden.HeartRateInitialFragment"
+            android:id="@+id/heartRateContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/type_exercise"></fragment>
+
+    </RelativeLayout>
+
+</ScrollView>

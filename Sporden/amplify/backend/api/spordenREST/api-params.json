@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/Health",
+            "lambdaFunction": "sporden2d1ff578",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "rw"
+            }
+        }
+    ],
+    "resourceName": "spordenREST",
+    "apiName": "spordenREST",
+    "functionArns": [
+        {
+            "lambdaFunction": "sporden2d1ff578"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "sporden-20190219213452-authRole",
+        "unAuthRoleName": "sporden-20190219213452-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "sporden2d1ff578",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
