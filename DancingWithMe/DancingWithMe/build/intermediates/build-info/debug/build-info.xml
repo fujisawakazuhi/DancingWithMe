@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86,armeabi-v7a,armeabi,arm64-v8a"
+    api-level="23"
+    build-mode="FULL"
+    density="mdpi"
+    format="10"
+    plugin-version="3.4.1"
+    timestamp="1567115217450"
+    token="-4009246096485301909"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="386" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="35" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/instant-run-apk/debug/DancingWithMe-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1567115217450"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/instant-run-apk/debug/DancingWithMe-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+
+</instant-run>

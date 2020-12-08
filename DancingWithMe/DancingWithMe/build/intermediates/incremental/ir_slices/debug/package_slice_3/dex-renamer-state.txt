@@ -1,0 +1,4 @@
+#Thu Aug 29 17:46:59 EDT 2019
+base.0=/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/DancingWithMe/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

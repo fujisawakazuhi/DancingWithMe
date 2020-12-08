@@ -1,0 +1,4 @@
+#Thu Aug 29 18:00:03 EDT 2019
+base.0=/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

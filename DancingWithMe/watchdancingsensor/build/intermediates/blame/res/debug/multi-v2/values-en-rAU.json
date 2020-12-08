@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "/Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                },
+                {
+                    "source": "/Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bf4fe6655ff40a8e44c8a0e8cb4cb871/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,116",
+                        "endOffsets": "159,276"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "156,265",
+                        "endColumns": "108,116",
+                        "endOffsets": "260,377"
+                    }
+                }
+            ]
+        }
+    ]
+}

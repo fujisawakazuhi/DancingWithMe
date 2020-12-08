@@ -1,0 +1,523 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/38cc5984771281f9cc1f4a5c1944bd8d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a841ac5a18476c368b1aaaef72424dbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.ticwear:mobvoi-api:1.1.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a6523704f9e6d0e612a678d82fd5bd27/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7d2d064657432966bb19d29847735c2d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bf4fe6655ff40a8e44c8a0e8cb4cb871/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/4753364744529de8f74bbc6324f893d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/daa47daf533ffbfc8dd37fb0b4d9e041/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/dba9905299de1099339935f1e17c525f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9526d19fcb4ddcb0708b528f7e919ccd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.nisrulz:sensey:1.8.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b4c84e6d52eb1027ce6d7db588fb0962/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/308a0775e9b5d9fefe90c1db72e463ba/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/6880d89c7990c3d67f806f0b0c4f1578/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/faec84f462e6ebcec5e226db6c55197c/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/12e5c8b7ba7aaf4a02bf2d04e84a264a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/941d0f9ca5a3833d40b725ddcd588f4a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/2e4b4c3a8af72bc5722f8f2f3eb3bdf7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/19e8a204c7373df9df46fa7781d2a84d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ff37d6e3f112d645197fdde798e7ea6b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/342af139d2a59ade46c879c4c21aec37/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c91eb5e7f7f9cb4b3c28dac8e4c7943/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/26faa1d4d0002c209b3bc962e9ef708b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.media:media:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/107f353049706cf10ac621d94abf4de9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/99fc280a3a9e38e81b09b5ca503ff153/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a2cdfc26a84c9e25e9206bd18268a7c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a985bf2eefa52c3839d15f9c55eeced2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c34f1e3b67e0af0a23870e79941563f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/06c318bcc8361931248379d53fd87ece/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/321d003c27e60f11ebcd8ba87013a7c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9cb7b1ed359476754923064212fc82b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b84b66b2e50a782d8783e9c823b50a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/be3b7d82d710a2596216a9d58f75c0b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/8fbe32fe3ff7f49939feb0dafe2b5c47/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/907f812527c81d269694a10af8bf40db/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ce702cb55fdde2952c6af80d65ebf833/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9ad9fe91d87c22ffe7a94ba79addaada/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/65089f5156f293978765e06ea63cb117/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/07d752d61777d10b7036f8b4a7fc797e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f4db36726f3503e77e2aeb7caa688c20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/15f04a41997c1c048fe462a8286624de/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/045b35bfdd92d127f8cdecd915c8770d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/487fb4c3ab2d19eba1279e52e2234297/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/552723078e31d7b3776ab737dc7bad68/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b1885fd318d072f33feafbb8f5c5386b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7100a1c1bb47822b61333746a82299b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/da79aa649b83f0a8aa5ff131b7bb79f4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a441aefa0bd03e461fc2153ef83b58d7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/1095b857267d070f973b9d289aee0102/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/547e68ab6eae3ac03846ef6a572ef55c/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:4:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BODY_SENSORS
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:5:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/547e68ab6eae3ac03846ef6a572ef55c/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/547e68ab6eae3ac03846ef6a572ef55c/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:7:22-76
+uses-feature#android.hardware.type.watch
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:9:5-64
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:9:19-61
+application
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:11:5-38:19
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/38cc5984771281f9cc1f4a5c1944bd8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/38cc5984771281f9cc1f4a5c1944bd8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/dba9905299de1099339935f1e17c525f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/dba9905299de1099339935f1e17c525f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9526d19fcb4ddcb0708b528f7e919ccd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9526d19fcb4ddcb0708b528f7e919ccd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:16:5-22:19
+MERGED from [com.github.nisrulz:sensey:1.8.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b4c84e6d52eb1027ce6d7db588fb0962/AndroidManifest.xml:27:5-20
+MERGED from [com.github.nisrulz:sensey:1.8.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b4c84e6d52eb1027ce6d7db588fb0962/AndroidManifest.xml:27:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/faec84f462e6ebcec5e226db6c55197c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/faec84f462e6ebcec5e226db6c55197c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/12e5c8b7ba7aaf4a02bf2d04e84a264a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/12e5c8b7ba7aaf4a02bf2d04e84a264a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/941d0f9ca5a3833d40b725ddcd588f4a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/941d0f9ca5a3833d40b725ddcd588f4a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/2e4b4c3a8af72bc5722f8f2f3eb3bdf7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/2e4b4c3a8af72bc5722f8f2f3eb3bdf7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/19e8a204c7373df9df46fa7781d2a84d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/19e8a204c7373df9df46fa7781d2a84d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ff37d6e3f112d645197fdde798e7ea6b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ff37d6e3f112d645197fdde798e7ea6b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/342af139d2a59ade46c879c4c21aec37/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/342af139d2a59ade46c879c4c21aec37/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c91eb5e7f7f9cb4b3c28dac8e4c7943/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c91eb5e7f7f9cb4b3c28dac8e4c7943/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/26faa1d4d0002c209b3bc962e9ef708b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/26faa1d4d0002c209b3bc962e9ef708b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ce702cb55fdde2952c6af80d65ebf833/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ce702cb55fdde2952c6af80d65ebf833/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/da79aa649b83f0a8aa5ff131b7bb79f4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/da79aa649b83f0a8aa5ff131b7bb79f4/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:16:9-59
+uses-library#com.google.android.wearable
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:17:9-19:39
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:18:13-55
+meta-data#com.google.android.wearable.standalone
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:26:13-66
+activity#im.fju.watchdancingsensor.MainActivity
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:29:9-37:20
+	android:label
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f2f41d3ae1e328ce20d07a18997b4a22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/38cc5984771281f9cc1f4a5c1944bd8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/38cc5984771281f9cc1f4a5c1944bd8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a841ac5a18476c368b1aaaef72424dbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a841ac5a18476c368b1aaaef72424dbe/AndroidManifest.xml:20:5-44
+MERGED from [com.ticwear:mobvoi-api:1.1.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a6523704f9e6d0e612a678d82fd5bd27/AndroidManifest.xml:5:5-44
+MERGED from [com.ticwear:mobvoi-api:1.1.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a6523704f9e6d0e612a678d82fd5bd27/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7d2d064657432966bb19d29847735c2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7d2d064657432966bb19d29847735c2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bf4fe6655ff40a8e44c8a0e8cb4cb871/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bf4fe6655ff40a8e44c8a0e8cb4cb871/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/4753364744529de8f74bbc6324f893d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/4753364744529de8f74bbc6324f893d2/AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/daa47daf533ffbfc8dd37fb0b4d9e041/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/daa47daf533ffbfc8dd37fb0b4d9e041/AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/dba9905299de1099339935f1e17c525f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/dba9905299de1099339935f1e17c525f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9526d19fcb4ddcb0708b528f7e919ccd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9526d19fcb4ddcb0708b528f7e919ccd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nisrulz:sensey:1.8.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b4c84e6d52eb1027ce6d7db588fb0962/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.nisrulz:sensey:1.8.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b4c84e6d52eb1027ce6d7db588fb0962/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/308a0775e9b5d9fefe90c1db72e463ba/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/308a0775e9b5d9fefe90c1db72e463ba/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/6880d89c7990c3d67f806f0b0c4f1578/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/6880d89c7990c3d67f806f0b0c4f1578/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/faec84f462e6ebcec5e226db6c55197c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/faec84f462e6ebcec5e226db6c55197c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/12e5c8b7ba7aaf4a02bf2d04e84a264a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/12e5c8b7ba7aaf4a02bf2d04e84a264a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/941d0f9ca5a3833d40b725ddcd588f4a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/941d0f9ca5a3833d40b725ddcd588f4a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/2e4b4c3a8af72bc5722f8f2f3eb3bdf7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/2e4b4c3a8af72bc5722f8f2f3eb3bdf7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/19e8a204c7373df9df46fa7781d2a84d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/19e8a204c7373df9df46fa7781d2a84d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/925940e16d66f4ea6e1d93dce59fc1a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ff37d6e3f112d645197fdde798e7ea6b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ff37d6e3f112d645197fdde798e7ea6b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/342af139d2a59ade46c879c4c21aec37/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/342af139d2a59ade46c879c4c21aec37/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c91eb5e7f7f9cb4b3c28dac8e4c7943/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c91eb5e7f7f9cb4b3c28dac8e4c7943/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/26faa1d4d0002c209b3bc962e9ef708b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/26faa1d4d0002c209b3bc962e9ef708b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/107f353049706cf10ac621d94abf4de9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/107f353049706cf10ac621d94abf4de9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/99fc280a3a9e38e81b09b5ca503ff153/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/99fc280a3a9e38e81b09b5ca503ff153/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a2cdfc26a84c9e25e9206bd18268a7c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a2cdfc26a84c9e25e9206bd18268a7c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a985bf2eefa52c3839d15f9c55eeced2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a985bf2eefa52c3839d15f9c55eeced2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c34f1e3b67e0af0a23870e79941563f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/3c34f1e3b67e0af0a23870e79941563f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/06c318bcc8361931248379d53fd87ece/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/06c318bcc8361931248379d53fd87ece/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/321d003c27e60f11ebcd8ba87013a7c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/321d003c27e60f11ebcd8ba87013a7c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9cb7b1ed359476754923064212fc82b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9cb7b1ed359476754923064212fc82b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b84b66b2e50a782d8783e9c823b50a7e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b84b66b2e50a782d8783e9c823b50a7e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/be3b7d82d710a2596216a9d58f75c0b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/be3b7d82d710a2596216a9d58f75c0b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/8fbe32fe3ff7f49939feb0dafe2b5c47/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/8fbe32fe3ff7f49939feb0dafe2b5c47/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/907f812527c81d269694a10af8bf40db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/907f812527c81d269694a10af8bf40db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7dd8eba58729e9ef007a34bdc588d142/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ce702cb55fdde2952c6af80d65ebf833/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ce702cb55fdde2952c6af80d65ebf833/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9ad9fe91d87c22ffe7a94ba79addaada/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/9ad9fe91d87c22ffe7a94ba79addaada/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/65089f5156f293978765e06ea63cb117/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/65089f5156f293978765e06ea63cb117/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/07d752d61777d10b7036f8b4a7fc797e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/07d752d61777d10b7036f8b4a7fc797e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f4db36726f3503e77e2aeb7caa688c20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f4db36726f3503e77e2aeb7caa688c20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/15f04a41997c1c048fe462a8286624de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/15f04a41997c1c048fe462a8286624de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/045b35bfdd92d127f8cdecd915c8770d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/045b35bfdd92d127f8cdecd915c8770d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/487fb4c3ab2d19eba1279e52e2234297/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/487fb4c3ab2d19eba1279e52e2234297/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/552723078e31d7b3776ab737dc7bad68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/552723078e31d7b3776ab737dc7bad68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b1885fd318d072f33feafbb8f5c5386b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b1885fd318d072f33feafbb8f5c5386b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7100a1c1bb47822b61333746a82299b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/7100a1c1bb47822b61333746a82299b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/da79aa649b83f0a8aa5ff131b7bb79f4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/da79aa649b83f0a8aa5ff131b7bb79f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a441aefa0bd03e461fc2153ef83b58d7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/a441aefa0bd03e461fc2153ef83b58d7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/1095b857267d070f973b9d289aee0102/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/1095b857267d070f973b9d289aee0102/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/547e68ab6eae3ac03846ef6a572ef55c/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/547e68ab6eae3ac03846ef6a572ef55c/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		ADDED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+		INJECTED from /Users/laiyifan/Desktop/DancingWithMe_v0.0.1/watchdancingsensor/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/87b61db4949746c233ca073cd3b9a0d4/AndroidManifest.xml:34:13-89
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:17:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/ebe2ac84ab5fd739f74a72e7302d517f/AndroidManifest.xml:19:17-111
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/e54f3aa11b344321327f45cc2101bf28/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/436ddf3d8ac2788a69a095ff01752b8a/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/224cdcc319725a4e88e7f0e1687b507d/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/b0fbcb2cd2baaeb56121a7cc3ac22a1e/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/f0efa18a8972f32b80761c5c4f5b0dc7/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/bc4db6706139c7ba0b3e2c754b76ab59/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/laiyifan/.gradle/caches/transforms-2/files-2.1/153ba414427b3b3e91184f8ab1394bd5/AndroidManifest.xml:24:13-58
