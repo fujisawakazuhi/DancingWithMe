@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DancingWithMe.iml" filepath="$PROJECT_DIR$/.idea/modules/DancingWithMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DancingWithMe/DancingWithMe.DancingWithMe.iml" filepath="$PROJECT_DIR$/.idea/modules/DancingWithMe/DancingWithMe.DancingWithMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotActivityLibrary/DancingWithMe.RobotActivityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotActivityLibrary/DancingWithMe.RobotActivityLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/watchdancingsensor/DancingWithMe.watchdancingsensor.iml" filepath="$PROJECT_DIR$/.idea/modules/watchdancingsensor/DancingWithMe.watchdancingsensor.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.race604.waveloading:library:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c7fb9c865f1089b91383eb27a4eba9d/jetified-library-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c7fb9c865f1089b91383eb27a4eba9d/jetified-library-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c7fb9c865f1089b91383eb27a4eba9d/jetified-library-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.race604.waveloading/library/1.1.1/3b0cc5d37fadc7daa1ede8488570535aec9722f5/library-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.race604.waveloading/library/1.1.1/534afd229e81497c251982b42ad16e02decdd436/library-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

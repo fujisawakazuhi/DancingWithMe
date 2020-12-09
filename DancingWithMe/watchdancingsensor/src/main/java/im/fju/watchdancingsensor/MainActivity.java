@@ -110,33 +110,24 @@ public class MainActivity extends WearableActivity implements SensorEventListene
             }
         });
 
-        //要求權限
+        //確認手錶偵測權限開啟-------------------------------------
         if (ContextCompat.checkSelfPermission(MainActivity.this,
                 Manifest.permission.BODY_SENSORS)
                 != PackageManager.PERMISSION_GRANTED) {
 
-            // Should we show an explanation?
-            if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,
-                    Manifest.permission.BODY_SENSORS)) {
-
-                // Show an explanation to the user *asynchronously* -- don't block
-                // this thread waiting for the user's response! After the user
-                // sees the explanation, try again to request the permission.
-
-            } else {
-
-                // No explanation needed, we can request the permission.
+                //再要求一次使用者開啟權限
 
                 ActivityCompat.requestPermissions(MainActivity.this,
                         new String[]{Manifest.permission.BODY_SENSORS},
                         MY_PERMISSIONS_REQUEST_BODY_SENSORS);
 
-                // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
-                // app-defined int constant. The callback method gets the
-                // result of the request.
-            }
         }
+
+        //獲取裝置的訊息
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+
+        //註冊心率偵測器
+        mHeartRateSensor = Objects.requireNonNull(mSensorManager).getDefaultSensor(Sensor.TYPE_HEART_RATE);
 
         //手錶運動辨識-------------------------------------
 
@@ -148,24 +139,13 @@ public class MainActivity extends WearableActivity implements SensorEventListene
         watchState.put("orientation", -1);
         docRef.set(watchState);
         postFirebase();
+
         //手錶運動辨識-------------------------------------
 
         // Enables Always-on
         setAmbientEnabled();
 
 
-        //在背景0.5秒抓一次是不是true
-        /*handler.post(new Runnable() {
-            @Override
-            public void run() {
-                handler.postDelayed(this, 500);
-                Log.d(TAG, "postDelayed");
-                getCheckStart();
-            }
-        });*/
-
-        //註冊心跳偵測器
-        mHeartRateSensor = Objects.requireNonNull(mSensorManager).getDefaultSensor(Sensor.TYPE_HEART_RATE);
     }
 
     @Override
@@ -336,23 +316,16 @@ public class MainActivity extends WearableActivity implements SensorEventListene
     }
 
     private void startMeasure() {
+
         data_heart_rate.clear();
         data_time_that.clear();
         mSensorManager.registerListener(this, mHeartRateSensor, SensorManager.SENSOR_DELAY_NORMAL);
         time_start = System.currentTimeMillis();
-        //Log.d("Sensor Status:", " Sensor registered: " + (mSe ? "yes" : "no"));
-        Log.d(TAG, "start measure");
+
+        Log.d(TAG, "start measurement");
+
         show_button.setText("量測中...");
-        //開始之後恢復在背景0.5秒抓一次是不是運動結束了(true)
-        //doPostEnd();
-        /*handler.post(new Runnable() {
-            @Override
-            public void run() {
-                handler.postDelayed(this, 500);
-                Log.d(TAG, "postDelayed");
-                doCheckEnd();
-            }
-        });*/
+
     }
 
 
@@ -391,22 +364,25 @@ public class MainActivity extends WearableActivity implements SensorEventListene
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+
+        // 取得目前時間
         time_now = System.currentTimeMillis();
-        //記錄心律的時間點
         double record_time = (double) (time_now - time_start) / 1000.0;
+        // 將心律數值指定給變數
         double heartrate = event.values[0];
-        //處理心律數值格式
+        // 處理心律數值格式
         DecimalFormat df = new DecimalFormat("##.00");
         heartrate = Double.parseDouble(df.format(heartrate));
         String mHeartRate = String.format(Locale.getDefault(), "%3.2f", heartrate);
-
+        // 將目前心律顯示在前端介面上
         mTextView.setText(mHeartRate);
-
+        // 將數值存入串列中
         record_time = Double.parseDouble(df.format(record_time));
         String mrecord_time = String.format(Locale.getDefault(), "%3.2f", record_time);
         data_heart_rate.add(mHeartRate);
         data_time_that.add(mrecord_time);
         Log.e(TAG, "HR: " + mHeartRate + "TIME:" + record_time);
+
     }
 
     @Override
