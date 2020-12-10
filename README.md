@@ -59,7 +59,7 @@ mSensorManager.registerListener(this, mHeartRateSensor, SensorManager.SENSOR_DEL
 > 3. 監聽頻率 （多久監聽一次）。
 
 
-> * 若需要監聽多個Sensor，可將`1.`參數指定為相應的Class。[範例](https://github.com/fujisawakazuhi/WatchDevelopmentConcept/blob/c5402935eb3e21cd284d19122814363f153cb294/DancingWithMe/watchdancingsensor/src/main/java/im/fju/watchdancingsensor/MainActivity.java#L191)
+> * 若需要監聽多個Sensor，可將`1.`參數指定為相應的Class。[範例_1](https://github.com/fujisawakazuhi/WatchDevelopmentConcept/blob/c5402935eb3e21cd284d19122814363f153cb294/DancingWithMe/watchdancingsensor/src/main/java/im/fju/watchdancingsensor/MainActivity.java#L162)、[範例_2](https://github.com/fujisawakazuhi/WatchDevelopmentConcept/blob/c5402935eb3e21cd284d19122814363f153cb294/DancingWithMe/watchdancingsensor/src/main/java/im/fju/watchdancingsensor/MainActivity.java#L191)
 > * [registerListener的說明文件](https://developer.android.com/reference/android/hardware/SensorManager#registerListener(android.hardware.SensorListener,%20int,%20int))
 
 ### 取得偵測數值
@@ -93,6 +93,16 @@ mSensorManager.registerListener(this, mHeartRateSensor, SensorManager.SENSOR_DEL
 ```
 > * event.values[0]為心律數值。
 > * 數值與時間處理的格式僅供參考，可依個程式所需進行處理。
+
+### 解除偵測
+
+不需要偵測時記得要解除，否則會在背景持續作業，很耗電。[範例](https://github.com/fujisawakazuhi/WatchDevelopmentConcept/blob/c5402935eb3e21cd284d19122814363f153cb294/DancingWithMe/watchdancingsensor/src/main/java/im/fju/watchdancingsensor/MainActivity.java#L335)
+
+* 使用unregisterListener()來解除
+
+```java
+mSensorManager.unregisterListener(this);
+```
 
 ## 相關連結
 * 若要計算卡路里可參考此[程式碼](https://github.com/fujisawakazuhi/WatchDevelopmentConcept/blob/4be8f6c39728fdb823a922326b52146ec7733203/Sporden/watch/src/main/java/com/fjuim/watch/MainActivity.java#L1068)。
